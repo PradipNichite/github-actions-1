@@ -16,3 +16,11 @@ jobs:
        print("Hello from Python")
        print("Hello again")
       shell: python
+
+ run-on-windows:
+  runs-on: windows-latest
+  steps:
+  - name: run bash
+    run: pwd
+    shell: bash
+
