@@ -1,0 +1,13 @@
+name: First Command
+on: [push]
+
+jobs:
+ run-shell-command:
+  runs-on: ubuntu-latest
+  steps:
+    - name: shell command
+      run: echo "Hello World"
+    - name : multi line command
+      run: |
+       node -v
+       python-v  
