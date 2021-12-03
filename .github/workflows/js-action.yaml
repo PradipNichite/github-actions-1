@@ -10,4 +10,4 @@ jobs:
       with:
         who-to-greet: Pradip
     - name: print-output
-      run: echo "{{ steps.js1.outputs.time}}"
+      run: echo "${{ steps.js1.outputs.time}}"
