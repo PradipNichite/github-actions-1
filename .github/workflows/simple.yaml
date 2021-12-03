@@ -10,4 +10,4 @@ jobs:
     - name : multi line command
       run: |
        node -v
-       python-v  
+       python -v  
